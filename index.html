@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,400;1,500;1,600;1,700&family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,7 +22,7 @@
   <body>
     <main >
       <header>
-        <div class="header"><h1>WELCOME TO KENNETH'S STORE</h1>
+        <div id="header"><h1 id="main-header">WELCOME TO KENNETH'S STORE</h1>
           <p class ="header-text">Home Of Quality Iphones</p></div>
         
       </header>
@@ -44,7 +52,7 @@
               <li>5G for super-fast downloads and streaming of the highest quality.</li>
               <li>A14 Bionic, the fastest chip in a smartphone </li>
             </ul></p>
-            <p><a href="https://www.amazon.de/-/en/MGJA3ZD-A-Apple-iPhone-12/dp/B08L5W8H9T/ref=sxin_5_ac_d_rm?ac_md=0-0-YXBwbGUgaXBob25l-ac_d_rm_rm_rm&crid=3F45K6RML2CVR&cv_ct_cx=apple+iphone&keywords=apple+iphone&pd_rd_i=B08L5W8H9T&pd_rd_r=33de8ad5-5392-4133-abea-1cfa0500cffe&pd_rd_w=GBzyY&pd_rd_wg=twonV&pf_rd_p=d7022e5d-d98a-48af-b540-ab9d3c0ad7eb&pf_rd_r=E7WZK7XGTGYX3A51ZZVT&psc=1&qid=1645807705&sprefix=apple+iphone%2Caps%2C100&sr=1-1-fe323411-17bb-433b-b2f8-c44f2e1370d4" target="_blank">click me to buy</a></p>
+            <p><a  href="https://www.amazon.de/-/en/MGJA3ZD-A-Apple-iPhone-12/dp/B08L5W8H9T/ref=sxin_5_ac_d_rm?ac_md=0-0-YXBwbGUgaXBob25l-ac_d_rm_rm_rm&crid=3F45K6RML2CVR&cv_ct_cx=apple+iphone&keywords=apple+iphone&pd_rd_i=B08L5W8H9T&pd_rd_r=33de8ad5-5392-4133-abea-1cfa0500cffe&pd_rd_w=GBzyY&pd_rd_wg=twonV&pf_rd_p=d7022e5d-d98a-48af-b540-ab9d3c0ad7eb&pf_rd_r=E7WZK7XGTGYX3A51ZZVT&psc=1&qid=1645807705&sprefix=apple+iphone%2Caps%2C100&sr=1-1-fe323411-17bb-433b-b2f8-c44f2e1370d4" target="_blank">click me to buy</a></p>
             <p class = "price">price: $<strong>722</strong></p>
           </td>
           <td><img class="phone-img" src="./iphone 12.jpg" alt="image of iphone 12"></td>
@@ -76,7 +84,7 @@
               <li>12 MP TrueDepth Frontkamera mit Nachtmodus, 4K HDR Aufnahme mit Dolby Vision</li>
               <li>A15 Bionic Chip für superschnelle Performance</li>
             </ul></p>
-            <p><a href="https://www.amazon.de/dp/B09G98RXFY/ref=de_a_iphone3_0" target="_blank">click me to buy</a></p>
+            <p><a  href="https://www.amazon.de/dp/B09G98RXFY/ref=de_a_iphone3_0" target="_blank">click me to buy</a></p>
             <p class = "price">price: $<strong>1159</strong></p>
           </td>
           <td><img class="phone-img" src="./iphone 13.jpg" alt="image of iphone 13"></td>
@@ -93,7 +101,7 @@
               <li>Cinematic mode automatically adds shallow depth of field and shifts focus in your videos</li>
               <li>12 MP TrueDepth front camera with night mode, 4K HDR recording with Dolby Vision</li>
             </ul></p>
-            <p><a href="https://www.amazon.de/dp/B09G8Y52NK/ref=de_a_iphone3_5" target="_blank">click me to buy</a></p>
+            <p><a  href="https://www.amazon.de/dp/B09G8Y52NK/ref=de_a_iphone3_5" target="_blank">click me to buy</a></p>
             <p class = "price">price: $<strong>1449</strong></p>
           </td>
           <td><img class="phone-img" src="./iphone 13 pro.jpg" alt="image of iphone 13 pro"></td>
@@ -109,7 +117,7 @@
               <li>Cinematic mode automatically adds shallow depth of field and shifts focus in your videos</li>
               <li>12 MP TrueDepth front camera with night mode, 4K HDR recording with Dolby Vision</li>
             </ul></p>
-            <p><a href="https://www.amazon.de/dp/B09G8Y6DDF/ref=de_a_iphone3_4?th=1" target="_blank">click me to buy</a></p>
+            <p><a  href="https://www.amazon.de/dp/B09G8Y6DDF/ref=de_a_iphone3_4?th=1" target="_blank">click me to buy</a></p>
             <p class = "price">price: $<strong>1549</strong></p>
           </td>
           <td><img class="phone-img" src="./iphone 13 pro max.jpg" alt="image of iphone 13 pro max"></td>
@@ -119,11 +127,17 @@
       <textarea name="review" id="review-box" cols="30" rows="10"></textarea>
     </div>
   </main>
-  <footer>
-    <div>
-
+  <footer class="section-footer">
+    <div class="container footer-text-box">
+      
+      <p class="sub-header">Contact details</p>
+      <address class="address"> universiteto, gatve 8 akademija. Kaunas, Lithuania</address>
+      <p class="tel">+37069277651</p>
+    
     </div>
   </footer>
-  <script></script>
+  <script src="./script.js">
+    
+  </script>
   </body>
 </html>
